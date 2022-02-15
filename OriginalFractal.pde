@@ -90,7 +90,7 @@ public void dragon(float startX, float startY, ArrayList<Integer> fold, int coun
     }
   } else {
     if (fold.get(count) == 0) {
-      rotate(radians(rotation));
+ 
       float endX = startX + (float)(len*Math.cos((ang - 90) * PI/180));
       float endY = startY + (float)(len*Math.sin((ang - 90) * PI/180));
       line(startX, startY, endX, endY);
@@ -98,7 +98,7 @@ public void dragon(float startX, float startY, ArrayList<Integer> fold, int coun
     } else {
       float endX = startX + (float)(len*Math.cos((ang + 90) * PI/180));
       float endY = startY + (float)(len*Math.sin((ang + 90) * PI/180));
-      rotate(radians(rotation));
+    
       line(startX, startY, endX, endY);
       dragon(endX, endY, fold, count+1, (ang + 90));
     }
