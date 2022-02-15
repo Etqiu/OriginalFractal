@@ -23,7 +23,7 @@ public void setup() {
 }
 
 void draw() {
-  scale(1);
+  
   background(255);
   stroke(y/2.8, 255, 255);
 
