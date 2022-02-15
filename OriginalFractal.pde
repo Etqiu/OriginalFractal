@@ -20,8 +20,6 @@ public void setup() {
   for (int i = 0; i < tempFolds.length(); i++) {
     folds.add(parseInt(tempFolds.substring(i, i+1)));
   }
-
-  System.out.println(folds.size()); //Checks maximum number of folds
 }
 
 void draw() {
