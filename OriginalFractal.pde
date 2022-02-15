@@ -4,7 +4,6 @@ int increaser = 10;
 float y = 700;
 float colors = 0;
 float rotation =0;
-float scale = 1;
 int button = 255;
 int button3=255;
 String tempFolds = regularPaperFold(15);
@@ -38,7 +37,6 @@ void draw() {
   fill(y/2.8, 255, 255);
   strokeWeight(2.5);
   stroke(0);
-  scale(1);
   rect(900, 250, 50, 500, 50); //big slider
   stroke(255);
   rect(900, y, 50, 50, 17); //slider button
