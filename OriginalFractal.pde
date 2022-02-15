@@ -18,7 +18,7 @@ public void setup() {
   colorMode(HSB);
   //Change for more folds in arrayList
   for (int i = 0; i < tempFolds.length(); i++) {
-    folds.add(Integer.parseInt(tempFolds.substring(i, i+1)));
+    folds.add(parseInt(tempFolds.substring(i, i+1)));
   }
 
   System.out.println(folds.size()); //Checks maximum number of folds
